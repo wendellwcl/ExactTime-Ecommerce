@@ -141,6 +141,7 @@ body{
 
 /* Banner */
 /* Carousel */
+
 #banner-container{
     padding: 0;   
 }
@@ -173,6 +174,7 @@ body{
 }
 
 /* Mini Banner */
+
 #mini-banners{
     margin-top: -3em;
     z-index: 10;
@@ -284,5 +286,36 @@ body{
 @media (min-width: 768px){
     .title{
         text-align: left;
+    }
+}
+
+/* Destaque */
+
+#destaque{
+    background-color: #101010;
+    padding: 6em;
+    margin-bottom: 4em;
+    text-align: center;
+}
+
+#destaque .offer-subtitle,
+#destaque h2{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#destaque .btn{
+    margin: 2em;
+    font-weight: bold;
+    padding: 1em;
+}
+
+#destaque img{
+    max-width: 175px;
+}
+
+@media (min-width: 768px){
+    #destaque h2{
+        font-size: 6em;
     }
 }
